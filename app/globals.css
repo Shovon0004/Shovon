@@ -121,7 +121,7 @@
   body {
     color: hsl(var(--foreground));
     background: hsl(var(--background));
-    cursor: none;
+    cursor: url('/whale-emoji.png') 16 16, auto;
   }
 
   html {
