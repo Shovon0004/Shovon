@@ -177,7 +177,7 @@ export default function ShovonPortfolio() {
       company: "Susrut Eye Hospital",
       period: "2025",
       location: "Kolkata, India",
-      type: "Collaborator",
+      type: "Collab",
       description:
         "Led digitization initiatives and developed automation support tools to streamline hospital operations and improve staff efficiency.",
       responsibilities: [
