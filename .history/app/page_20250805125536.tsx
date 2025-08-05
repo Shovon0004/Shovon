@@ -177,7 +177,7 @@ export default function ShovonPortfolio() {
       company: "Susrut Eye Hospital",
       period: "2025",
       location: "Kolkata, India",
-      type: "C",
+      type: "Collaborator",
       description:
         "Led digitization initiatives and developed automation support tools to streamline hospital operations and improve staff efficiency.",
       responsibilities: [
@@ -206,7 +206,7 @@ export default function ShovonPortfolio() {
 
   const achievements = [
     { title: "LeetCode Contributor", description: "Contributed a question to LeetCode platform", year: "2024" },
-    { title: "300+ DSA Problems", description: "Solved 100+ Data Structures & Algorithms problems", year: "2024-2025" },
+    { title: "300+ DSA Problems", description: "Solved 300+ Data Structures & Algorithms problems", year: "2024-2025" },
     { title: "15+ Hackathons", description: "Participated in 15+ national/state-level hackathons", year: "2024-2025" },
     { title: "2nd Place - IT Fair", description: "LALANI COMPUTER ACADEMY", year: "2024" },
     { title: "3rd Place - Upskill Mafia", description: "Hackathon Achievement", year: "2025" },
