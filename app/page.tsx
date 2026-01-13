@@ -282,7 +282,7 @@ export default function ShovonPortfolio() {
             </Button>
             <Button variant="ghost" size="sm" asChild>
               <Link
-                href="https://linkedin.com/in/shovon-halder"
+                href="https://linkedin.com/in/shovon-halder-5ab775266/"
                 target="_blank"
                 className="text-slate-600 hover:text-slate-900"
               >
@@ -680,7 +680,7 @@ export default function ShovonPortfolio() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Server className="h-5 w-5 text-slate-600" />
-              <span className="text-slate-600">© 2025 Shovon Halder.</span>
+              <span className="text-slate-600">© 2025 Shovon Halder. </span>
             </div>
             
           </div>
