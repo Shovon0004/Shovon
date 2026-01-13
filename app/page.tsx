@@ -59,6 +59,22 @@ export default function ShovonPortfolio() {
 
   const projects = [
     {
+      title: "Microservice Architecture Project",
+      category: "Backend & Microservices",
+      year: "2026",
+      description:
+        "Building a scalable microservice architecture using Spring Boot with service-to-service communication via Open Feign and service discovery with Eureka Server.",
+      achievements: [
+        "Implemented microservice architecture with Spring Boot",
+        "Configured service discovery with Eureka Server",
+        "Integrated Open Feign for inter-service communication",
+        "Built scalable and distributed service architecture",
+      ],
+      technologies: ["Spring Boot", "Open Feign", "Eureka Server", "Java", "Microservices"],
+      type: "Backend",
+      status: "In Progress",
+    },
+    {
       title: "Kubernetes Learning Project",
       category: "DevOps & Infrastructure",
       year: "2025",
@@ -157,6 +173,22 @@ export default function ShovonPortfolio() {
   ]
 
   const experience = [
+    {
+      title: "Full-Stack Developer",
+      company: "Inteli edtech",
+      period: "Jan 9, 2026 – Present",
+      location: "Remote",
+      type: "Full-time",
+      description:
+        "Building intelligent solutions for educational technology, developing a multimodal agent system for detecting and processing previous year examination questions with automated database integration.",
+      responsibilities: [
+        "Developed multimodal agent for detecting previous year questions from various sources",
+        "Implemented intelligent question detection and categorization system",
+        "Built database integration for automated question storage and retrieval",
+        "Created full-stack features for seamless data pipeline",
+        "Optimized question processing and analysis workflows",
+      ],
+    },
     {
       title: "Full-Stack Web Developer Intern",
       company: "TherapyU",
@@ -269,7 +301,7 @@ export default function ShovonPortfolio() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-2 text-sm text-slate-600">
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span>Available for DevOps & Full-Stack opportunities</span>
+                  <span>Available for DevOps & Full-Stack opportunities, including freelance projects</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
                   Shovon Halder
@@ -582,7 +614,7 @@ export default function ShovonPortfolio() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
             <Card className="text-center">
               <CardHeader>
                 <Mail className="h-8 w-8 text-slate-700 mx-auto mb-4" />
@@ -617,7 +649,7 @@ export default function ShovonPortfolio() {
               </CardHeader>
               <CardContent>
                 <Button className="w-full bg-slate-900 hover:bg-slate-800" asChild>
-                  <Link href="https://linkedin.com/in/shovon-halder" target="_blank">
+                  <Link href="https://www.linkedin.com/in/shovon-halder-5ab775266/" target="_blank">
                     Connect
                   </Link>
                 </Button>
@@ -648,7 +680,7 @@ export default function ShovonPortfolio() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Server className="h-5 w-5 text-slate-600" />
-              <span className="text-slate-600">© 2025 Shovon Halder. Built with Next.js & Tailwind CSS.</span>
+              <span className="text-slate-600">© 2025 Shovon Halder.</span>
             </div>
             
           </div>

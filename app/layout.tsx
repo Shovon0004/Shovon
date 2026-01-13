@@ -5,9 +5,9 @@ import './globals.css';
 import CustomCursor from '@/components/CustomCursor';
 
 export const metadata: Metadata = {
-  title: 'Portfolio App',
-  description: 'Created with v0',
-  generator: 'pp.dev',
+  title: 'Portfolio of Shovon Halder',
+  description: 'Created by Shovon Halder',
+  generator: 'shovon.tech',
 };
 
 export default function RootLayout({
