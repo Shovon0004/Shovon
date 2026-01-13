@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   verification: {
-    google: 'your-google-verification-code',
+    google: 'google580cf38b38b3d62c',
   },
 };
 
