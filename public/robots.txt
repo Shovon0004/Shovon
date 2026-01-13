@@ -24,8 +24,8 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://shovon-halder.com/sitemap.xml
-Sitemap: https://shovon-halder.com/sitemap-mobile.xml
+Sitemap: https://shovon.tech/sitemap.xml
+Sitemap: https://shovon.tech/sitemap-mobile.xml
 
 # Crawl-delay for other bots
 User-agent: *

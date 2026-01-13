@@ -2,8 +2,8 @@
 export const SEO_CONFIG = {
   site: {
     name: 'Shovon Halder',
-    domain: 'shovon-halder.com',
-    url: 'https://shovon-halder.com',
+    domain: 'shovon.tech',
+    url: 'https://shovon.tech',
     description: 'Professional portfolio and projects of Shovon Halder, a DevOps Engineer and Full-Stack Web Developer',
     locale: 'en_US',
     type: 'website',
@@ -99,13 +99,13 @@ export const SEO_CONFIG = {
     'GitHub Actions',
   ],
   ogImage: {
-    url: 'https://shovon-halder.com/og-image.png',
+    url: 'https://shovon.tech/og-image.png',
     width: 1200,
     height: 630,
     alt: 'Shovon Halder - DevOps & Full-Stack Developer',
   },
   twitterImage: {
-    url: 'https://shovon-halder.com/twitter-image.png',
+    url: 'https://shovon.tech/twitter-image.png',
     width: 1024,
     height: 512,
     alt: 'Shovon Halder - DevOps & Full-Stack Developer',
