@@ -1,8 +1,8 @@
-// next.config.mjs - SEO and Performance Optimization
-import { withContentlayer } from 'next-contentlayer';
+// next.config.seo.mjs - SEO and Performance Optimization Reference
+// Note: This is a reference file. Apply configurations to next.config.mjs directly.
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const seoConfig = {
   reactStrictMode: true,
   compress: true,
   poweredByHeader: false,
@@ -135,4 +135,5 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+// Export as reference only - apply to next.config.mjs
+export default seoConfig;
