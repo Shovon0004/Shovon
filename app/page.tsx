@@ -1,5 +1,6 @@
 "use client"
 
+import Head from "next/head"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -352,7 +353,8 @@ export default function ShovonPortfolio() {
                   <div className="w-32 h-32 mx-auto mb-4 relative">
                     <Image
                       src="/placeholder-user.png?height=128&width=128"
-                      alt="Shovon Halder"
+                      alt="Shovon Halder - Full-Stack Developer and DevOps Engineer"
+                      title="Shovon Halder Professional Profile Photo"
                       width={128}
                       height={128}
                       className="rounded-full border-4 border-slate-100"
@@ -686,6 +688,191 @@ export default function ShovonPortfolio() {
           </div>
         </div>
       </footer>
+
+      {/* Comprehensive JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'Person',
+                '@id': 'https://shovon-halder.com/#person',
+                name: 'Shovon Halder',
+                alternateName: 'Shovon Kumar Halder',
+                description: 'Full-Stack Developer and DevOps Engineer with expertise in Kubernetes, Docker, React.js, Node.js, and modern web technologies',
+                url: 'https://shovon-halder.com',
+                email: 'shovonhalder04@gmail.com',
+                telephone: '+91-9800567487',
+                image: {
+                  '@type': 'ImageObject',
+                  url: 'https://shovon-halder.com/profile-image.png',
+                  width: 256,
+                  height: 256,
+                },
+                jobTitle: ['Full-Stack Developer', 'DevOps Engineer'],
+                workLocation: {
+                  '@type': 'Place',
+                  name: 'Remote',
+                },
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Kolkata',
+                  addressRegion: 'West Bengal',
+                  addressCountry: 'IN',
+                  streetAddress: 'Kolkata, India',
+                },
+                sameAs: [
+                  'https://github.com/Shovon0004',
+                  'https://linkedin.com/in/shovon-halder',
+                  'https://twitter.com/ShovonHalder',
+                ],
+                knowsAbout: [
+                  'JavaScript',
+                  'Python',
+                  'Java',
+                  'React.js',
+                  'Next.js',
+                  'Node.js',
+                  'Express.js',
+                  'Kubernetes',
+                  'Docker',
+                  'Spring Boot',
+                  'MongoDB',
+                  'SQL',
+                  'Tailwind CSS',
+                  'DevOps',
+                  'Microservices',
+                  'Cloud Infrastructure',
+                  'Full-Stack Development',
+                  'Web Development',
+                  'AI/ML',
+                  'IoT',
+                ],
+                brand: {
+                  '@type': 'Brand',
+                  name: 'Shovon Halder',
+                },
+              },
+              {
+                '@type': 'WebSite',
+                '@id': 'https://shovon-halder.com/#website',
+                url: 'https://shovon-halder.com',
+                name: 'Shovon Halder - DevOps & Full-Stack Developer Portfolio',
+                description: 'Professional portfolio showcasing projects, skills, experience, and achievements of Shovon Halder',
+                inLanguage: 'en-US',
+                isPartOf: {
+                  '@id': 'https://shovon-halder.com/#organization',
+                },
+              },
+              {
+                '@type': 'Organization',
+                '@id': 'https://shovon-halder.com/#organization',
+                name: 'Shovon Halder',
+                url: 'https://shovon-halder.com',
+                logo: {
+                  '@type': 'ImageObject',
+                  url: 'https://shovon-halder.com/logo.png',
+                  width: 256,
+                  height: 256,
+                },
+                description: 'Professional portfolio and projects of Shovon Halder - DevOps Engineer and Full-Stack Web Developer',
+                sameAs: [
+                  'https://github.com/Shovon0004',
+                  'https://linkedin.com/in/shovon-halder',
+                ],
+                contactPoint: {
+                  '@type': 'ContactPoint',
+                  contactType: 'General',
+                  telephone: '+91-9800567487',
+                  email: 'shovonhalder04@gmail.com',
+                },
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Kolkata',
+                  addressRegion: 'West Bengal',
+                  postalCode: '700000',
+                  addressCountry: 'IN',
+                },
+                founder: {
+                  '@type': 'Person',
+                  name: 'Shovon Halder',
+                },
+              },
+              {
+                '@type': 'WebPage',
+                '@id': 'https://shovon-halder.com/#webpage',
+                url: 'https://shovon-halder.com',
+                name: 'Shovon Halder - DevOps & Full-Stack Developer',
+                isPartOf: {
+                  '@id': 'https://shovon-halder.com/#website',
+                },
+                primaryImageOfPage: {
+                  '@type': 'ImageObject',
+                  url: 'https://shovon-halder.com/og-image.png',
+                  width: 1200,
+                  height: 630,
+                },
+                datePublished: '2025-01-13',
+                dateModified: '2025-01-13',
+                author: {
+                  '@type': 'Person',
+                  name: 'Shovon Halder',
+                  url: 'https://shovon-halder.com',
+                },
+                publisher: {
+                  '@type': 'Person',
+                  name: 'Shovon Halder',
+                },
+                description: 'Comprehensive portfolio showcasing DevOps expertise, full-stack development skills, professional experience, and innovative projects built with modern technologies.',
+              },
+              {
+                '@type': 'BreadcrumbList',
+                '@id': 'https://shovon-halder.com/#breadcrumb',
+                itemListElement: [
+                  {
+                    '@type': 'ListItem',
+                    position: 1,
+                    name: 'Home',
+                    item: 'https://shovon-halder.com',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 2,
+                    name: 'Experience',
+                    item: 'https://shovon-halder.com#experience',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 3,
+                    name: 'Skills',
+                    item: 'https://shovon-halder.com#skills',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 4,
+                    name: 'Projects',
+                    item: 'https://shovon-halder.com#projects',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 5,
+                    name: 'Achievements',
+                    item: 'https://shovon-halder.com#achievements',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 6,
+                    name: 'Contact',
+                    item: 'https://shovon-halder.com#contact',
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   )
 }

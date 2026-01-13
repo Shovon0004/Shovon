@@ -1,0 +1,36 @@
+# Robots.txt for Shovon Halder Portfolio
+# Last Updated: 2025-01-13
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Allow: /app/
+Allow: /components/
+Allow: /public/
+
+# Disallow private or unnecessary paths
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /.next/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://shovon-halder.com/sitemap.xml
+Sitemap: https://shovon-halder.com/sitemap-mobile.xml
+
+# Crawl-delay for other bots
+User-agent: *
+Crawl-delay: 1
+
+# Comments
+# This robots.txt file controls access to the Shovon Halder portfolio website
+# for web crawlers and search engines
